@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background: #DC2424;  
+background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  
+background: linear-gradient(to right, #4A569D, #DC2424); 
+  
+}
+.header-bg {
+    background-image: url('https://wallpaperaccess.com/full/17350.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header {
+    
+    color: #f60a0a;
+    padding: 20px 0;
+    text-align: center;
+}
+.header-image {
+    position: absolute;
+    top: 20px; 
+    left: 80px; 
+    width: 140px;
+    height: auto; 
+}
+header h1 {
+    font-size: 80px;
+}
+H1 {
+    font-family: "Spicy Rice", serif;
+    font-weight: 900;
+    font-style: normal;
+    -webkit-text-stroke: 1px #000;
+  }
+nav {
+    background-color: #f0f0f0b3; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center; 
+    width: 50%; 
+    height: 60px; 
+}
+
+nav a {
+    color: #000000; 
+    background-color: #ffffff; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: 2px solid #dddddd; 
+    border-radius: 5px; 
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 150px; 
+    height: 100%;
+}
+
+nav a:hover {
+    background-color: #db1111; 
+    color: #ffffff; 
+}
+p {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.caja {
+    border-radius: 30px; 
+    background-color: #ffffffb6; 
+    border: 3px solid #b6432f; 
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.caja img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.caja h2 {
+    color: #149262; 
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.caja p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+}
+footer {
+    background-color: #f0f0f0; 
+    text-align: center; 
+    padding: 20px 0; /* Aumenté el padding para más espacio */
+}
+
+.social-icons {
+    display: flex; /* Usamos flexbox para centrar los íconos */
+    justify-content: center; /* Centra horizontalmente */
+    flex-wrap: wrap; /* Permite que los íconos se ajusten en varias líneas si es necesario */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espacio entre los íconos */
+}
+
+.social-icon {
+    width: 40px;
+    height: auto; 
+    display: block; 
+}
+
+
+
